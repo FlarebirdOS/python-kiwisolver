@@ -1,6 +1,6 @@
 pkgname=python-kiwisolver
-pkgver=1.4.7
-pkgrel=1
+pkgver=1.4.9
+pkgrel=2
 pkgdesc="A fast implementation of the Cassowary constraint solver"
 arch=('x86_64')
 url="https://github.com/nucleic/kiwi"
@@ -15,7 +15,7 @@ makedepends=(
     'python-installer'
 )
 source=(git+ssh://git@github.com/nucleic/kiwi.git#tag=${pkgver})
-sha256sums=(e6269bd66822e209f98aff87061dd020e25aa2d119db2f8be8f505fca14874c6)
+sha256sums=(6e55ef610b69f495fc4d322a153198f3e310615a5e1a63ef25635ea8cc3f2831)
 
 build() {
     cd kiwi
